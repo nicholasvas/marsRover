@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MarsRover
 {
-    internal class Command
-    {
-    }
+        public enum Command
+        {
+            L,
+            R,
+            M
+        }
 }
